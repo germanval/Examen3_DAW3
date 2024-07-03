@@ -1,1 +1,18 @@
-<p>dashboard works!</p>
+<mat-toolbar color="accent">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span >Examen3</span>
+    &nbsp; &nbsp;
+     
+   
+     <button mat-raised-button (click)="ipostlocation()">Location</button>
+     &nbsp;
+     <button mat-raised-button (click)="irposttodos()">Todos</button>
+     &nbsp;
+
+    <span class="example-spacer"></span>
+    
+  </mat-toolbar>
+<hr/>
+<router-outlet></router-outlet>
