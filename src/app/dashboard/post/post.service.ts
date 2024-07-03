@@ -9,11 +9,5 @@ import { Post } from './post';
 })
 export class PostService {
 
-  constructor(private httpCliente:HttpClient) { }
-  getallPosts():Observable<Post[]>{
-    return this.httpCliente.get<Post[]>("https://rickandmortyapi.com/api/location"); 
-  }
-  getPostById(id:number):Observable<Post>{  
-    return this.httpCliente.get<Post>("https://rickandmortyapi.com/api/location/"+id);
-  }
+
 }
