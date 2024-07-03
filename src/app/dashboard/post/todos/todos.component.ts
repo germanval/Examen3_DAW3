@@ -24,7 +24,5 @@ export class TodosComponent {
     })
     
   }
-  onNavigatePostDetail(postId: string): void {
-    this.router.navigate([postId], {relativeTo: this.route});
-  }
+
 }
